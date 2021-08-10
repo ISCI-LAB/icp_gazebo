@@ -1,1 +1,1 @@
-# locobot_gazebo
+# icp_gazebo
