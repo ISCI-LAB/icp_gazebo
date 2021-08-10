@@ -21,7 +21,7 @@
   <build_depend>roscpp</build_depend>
   <build_depend>sensor_msgs</build_depend>
   <build_depend>std_msgs</build_depend>
-  <build_export_depend>gazebo_msg</build_export_depend>
+  <build_export_depend>gazebo_msgs</build_export_depend>
   <build_export_depend>gazebo_ros</build_export_depend>
   <build_export_depend>roscpp</build_export_depend>
   <build_export_depend>sensor_msgs</build_export_depend>
