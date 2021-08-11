@@ -20,7 +20,7 @@
 
     <!-- Gazebo -->
             
-    <include file="$(find icp_gazebo)/launch/gazebo_locobot.launch">
+    <include file="$(find ict_gazebo)/launch/gazebo_locobot.launch">
         <arg name="base" value="kobuki" />
         <arg name="world" value="$(arg world)" />
     </include>

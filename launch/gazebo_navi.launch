@@ -1,5 +1,5 @@
 <launch>
   <include file="$(find gazebo_ros)/launch/empty_world.launch">
-    <arg name="world_name" value="$(find icp_gazebo)/worlds/navigation_calibrate.world" />
+    <arg name="world_name" value="$(find ict_gazebo)/worlds/navigation_calibrate.world" />
   </include>
 </launch>

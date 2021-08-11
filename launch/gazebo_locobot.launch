@@ -5,14 +5,14 @@
   <!-- Static transform to make camera work in sim -->
   <node pkg="tf" type="static_transform_publisher" name="cam_transform" args="0 0 0 -1.57 0 -1.57 /camera_link /camera_color_optical_frame 100" />
 
-  <include file="$(find gazebo_ros)/launch/empty_world.launch">  
+  <include file="$(find locobot_gazebo)/launch/empty_world.launch">  
     <arg name="paused" value="false"/>
     <arg name="use_sim_time" value="true"/>
     <arg name="gui" value="true"/>
     <arg name="recording" value="false"/>
     <arg name="debug" value="false"/>
     <arg name="base" value="$(arg base)"/>
-    <arg name="world_name" value="$(find icp_gazebo)/worlds/$(arg world).world" />
+    <arg name="world_name" value="$(find ict_gazebo)/worlds/$(arg world).world" />
   </include>
 
   <rosparam file="$(find locobot_gazebo)/config/robotic_arm_gazebo_joint_states.yaml" command="load"/>
