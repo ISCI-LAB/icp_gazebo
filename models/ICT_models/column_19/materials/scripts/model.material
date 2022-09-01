@@ -1,0 +1,15 @@
+material model_material19/Diffuse
+{
+  receive_shadows off
+  technique
+  {
+    pass 
+    {  
+      texture_unit
+      {
+        texture Ford.png
+      }
+    }
+  }
+}
+      
