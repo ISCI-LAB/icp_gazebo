@@ -1,0 +1,15 @@
+material model_material/Diffuse
+{
+  receive_shadows off
+  technique
+  {
+    pass 
+    {  
+      texture_unit
+      {
+        texture cola.jpg
+      }
+    }
+  }
+}
+      
